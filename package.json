@@ -1,0 +1,43 @@
+{
+  "name": "safehold-skills",
+  "version": "0.1.0",
+  "description": "Claude Code skills that turn Safehold into finished workflows",
+  "type": "module",
+  "license": "MIT",
+  "author": "Spacetime Technology",
+  "keywords": [
+    "safehold",
+    "claude",
+    "claude-code",
+    "skills",
+    "agent-skills",
+    "mcp",
+    "identity",
+    "kyc",
+    "airline",
+    "check-in"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spacetime-Technology/safehold-skills.git"
+  },
+  "homepage": "https://github.com/Spacetime-Technology/safehold-skills#readme",
+  "bugs": {
+    "url": "https://github.com/Spacetime-Technology/safehold-skills/issues"
+  },
+  "bin": {
+    "safehold-skills": "./bin/install.js"
+  },
+  "files": [
+    "bin/**/*",
+    "skills/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "verify": "bash scripts/verify.sh"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
