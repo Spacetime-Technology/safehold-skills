@@ -37,7 +37,9 @@
     "LICENSE"
   ],
   "scripts": {
-    "verify": "bash scripts/verify.sh"
+    "verify": "bash scripts/verify.sh",
+    "preversion": "bash scripts/prerelease.sh",
+    "postversion": "git push --follow-tags origin main"
   },
   "engines": {
     "node": ">=20.0.0"
