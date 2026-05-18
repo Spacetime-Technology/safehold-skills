@@ -32,6 +32,8 @@
     "bin/**/*",
     "skills/**/*",
     "README.md",
+    "SKILLS.md",
+    "CHANGELOG.md",
     "LICENSE"
   ],
   "scripts": {
