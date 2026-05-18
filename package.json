@@ -15,7 +15,12 @@
     "identity",
     "kyc",
     "airline",
-    "check-in"
+    "check-in",
+    "esta",
+    "visa",
+    "us-travel",
+    "uk-eta",
+    "uk-travel"
   ],
   "repository": {
     "type": "git",

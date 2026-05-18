@@ -4,6 +4,12 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+- `esta-apply` skill: drives a browser through the US ESTA application at esta.cbp.dhs.gov, pulling passport fields from Safehold with per-field consent. User handles eligibility answers and the $21 payment. Saves the receipt PDF to `~/Downloads/`.
+- `esta-form.md` reference: ESTA form section map, verbatim eligibility questions, and known form quirks.
+- `uk-eta-apply` skill: drives a browser through the UK ETA web application at gov.uk, pulling passport fields from Safehold with per-field consent. User supplies the photo, answers the suitability questions, and handles the £16 payment. Saves the receipt PDF to `~/Downloads/`.
+- `uk-eta-form.md` reference: UK ETA form section map, suitability question categories, photo rules, and known form quirks.
+
 ## [0.1.0] — 2026-05-18
 
 Initial public release.

@@ -42,11 +42,11 @@ Each skill lists the capabilities it needs at the top and refuses to run if Safe
 | Skill | What it does |
 |---|---|
 | `airline-check-in` | Online check-in on an airline website using your stored passport. Headed browser, per-field consent, boarding pass saved to `~/Downloads/`. |
+| `esta-apply` | Submit a US ESTA application on esta.cbp.dhs.gov using your stored passport. Headed browser, per-field consent, you handle the $21 payment and eligibility answers, receipt saved to `~/Downloads/`. |
+| `uk-eta-apply` | Submit a UK ETA application on gov.uk using your stored passport. Headed browser, per-field consent, you handle the £16 payment and suitability answers, receipt saved to `~/Downloads/`. |
 
 ## Roadmap
 
-- `esta-apply` — US ESTA application
-- `uk-eta-apply` — UK Electronic Travel Authorization
 - `hotel-id-upload` — passport upload at check-in portals
 - `exchange-kyc` — onboarding flow for crypto exchanges
 
